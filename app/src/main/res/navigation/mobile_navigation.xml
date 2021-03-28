@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="co.banglabs.bootstraper.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:name="co.banglabs.bootstraper.ui.tutorial.TutorialFragment"
+        android:label="@string/menu_tutorial"
+        tools:layout="@layout/fragment_tutorial" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="co.banglabs.bootstraper.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:name="co.banglabs.bootstraper.ui.pdf.PdfFragment"
+        android:label="@string/menu_pdf"
+        tools:layout="@layout/fragment_pdf" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="co.banglabs.bootstraper.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:name="co.banglabs.bootstraper.ui.moreApps.MoreAppsFragment"
+        android:label="@string/menu_more_apps"
+        tools:layout="@layout/fragment_moreApps" />
 </navigation>
